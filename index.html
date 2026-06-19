@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="39x32" href="assets/images/media/icone.png">
+    <link rel="icon" type="image/png" sizes="18x16" href="assets/images/media/icone.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/proprieties.css">
+    <link rel="stylesheet" href="./assets/css/KeyFrames.css">
+    <title>Lavanderia-GisMArques| Serviços de Lavagem Profissional</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="hamburguer" id="Close-menu">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+
+        <header>
+            <div class="logo-header">
+                <img src="./media/logo3.png" alt="Logo Lavanderia">
+            </div>
+            <div class="img-wrapper">
+                <img src="./media/8.jpg" alt="">
+            </div>
+            <div class="banner">    
+                <h1 class="title-style">Lavandaria GisMarques</h1>  
+                <p>Serviços de Lavagem Profissional</p>
+                <button class="ButtonCustom" id="button-banner">Lavagem, Engomagemm, recolhas e Entregas</button>
+                <div class="banner-contact">
+                    <span class="banner-contact-icon"><i class="fas fa-phone"></i></span>
+                    <div class="banner-contact-list">
+                        <span class="banner-contact-title">Contactos</span>
+                        <a href="tel:+244943305446">(+244) 943 305 446</a>
+                    </div>
+                </div>
+            </div> 
+
+        </header>
+
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li id="menu-1" class="menu-item"><a id="Close-menu" href="#" class="menu-link">Início</a></li>
+                    <li id="menu-5" class="menu-item"><a id="Close-menu" href="#saber.mais" class="menu-link">Saber mais</a></li>
+                    <li id="menu-2" class="menu-item"><a id="Close-menu" href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                    <li id="menu-3" class="menu-item"><a id="Close-menu" href="#projetos" class="menu-link">Serviços</a></li>
+                    <li id="menu-4" class="menu-item"><a id="Close-menu" href="#contato" class="menu-link">Contato</a></li>
+                    <li id="menu-5" class="menu-item"><a id="Close-menu" href="#orcamento" class="menu-link">Orçamento</a></li>
+                    
+                    
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a id="social-1" href="#"><i class="fab fa-facebook"></i></a>
+                <a id="social-2" href="#"><i class="fab fa-instagram"></i></a>
+                <a id="social-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </aside>
+
+        <section class="sessao-saber-mais" id="saber.mais">
+            <div class="sessao-header">
+                <h1 class="title-style">Sobre a Lavanderia Gismarques</h1>
+                <p class="subtitle-header">Cuidamos das suas roupas com atenção profissional e entrega rápida.</p>
+
+            </div>
+            
+            <div class="about-container">
+                <!-- Card Principal de Apresentação -->
+                <div class="about-card main-card" data-anime="left">
+                    <div class="card-header">
+                        <div class="icon-about">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <h2>Sobre a Lavanderia</h2>
+                    </div>
+                    <div class="card-content">
+                        <p class="about-text">
+                             A Lavanderia Gismarques oferece serviços de lavagem, passar e entrega com cuidado profissional. Usamos produtos de qualidade e processos sustentáveis para conservar suas roupas.
+                        </p>
+                    </div>
+                    <button class="expand-btn" onclick="toggleAbout(0)">
+                        <span>Ler mais</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="expanded-content" id="about-0">
+                        <p>A Lavanderia Gismarques é uma empresa familiar dedicada a oferecer serviços completos de lavagem, passadoria e entrega com atenção aos mínimos detalhes. Utilizamos equipamentos modernos e produtos de qualidade para garantir limpeza eficiente sem danificar os tecidos.</p>
+                        <p>Nossa equipa é treinada para identificar diferentes tipos de fibras e aplicar o tratamento adequado, desde roupas do dia a dia até peças delicadas e roupas de cama. Oferecemos opções de coleta e entrega para maior comodidade, além de prazos claros e preços justos.</p>
+                    </div>
+                </div>
+
+                <!-- Card de Valores -->
+                <div class="about-card values-card" data-anime="right">
+                    <div class="card-header">
+                        <div class="icon-about">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h2>Nossos Valores</h2>
+                    </div>
+                    <div class="card-content">
+                        <ul class="values-list">
+                            <li><span class="value-icon">✓</span> Qualidade</li>
+                            <li><span class="value-icon">✓</span> Cuidados</li>
+                            <li><span class="value-icon">✓</span> pontualidade</li>
+                            <li><span class="value-icon">✓</span> Sustentablidade</li>
+                        </ul>
+                    </div>
+                    <button class="expand-btn" onclick="toggleAbout(1)">
+                        <span>Ver mais</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="expanded-content" id="about-1">
+                        <p>Nossos valores norteiam tudo o que fazemos: compromisso com a qualidade, respeito pelas peças dos clientes e responsabilidade ambiental. Trabalhamos com transparência, cumprindo prazos e mantendo comunicação clara em cada etapa do serviço.</p>
+                        <p>Valorizamos a confiança dos nossos clientes, tratamos cada peça com cuidado e procuramos soluções sustentáveis sempre que possível — como produtos de limpeza mais suaves e processos que economizam água e energia.</p>
+                    </div>
+                </div>
+
+                <!-- Card de Especialidades -->
+                <div class="about-card expertise-card" data-anime="left">
+                    <div class="card-header">
+                        <div class="icon-about">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h2>Especialidades</h2>
+                    </div>
+                    <div class="card-content">
+                        <ul class="expertise-list">
+                            <li><strong>Lavagem Completa:</strong> Roupas do dia a dia, cama e banho</li>
+                            <li><strong>Passadoria:</strong> Roupas sociais e delicadas</li>
+                            <li><strong>Lavagem a Seco:</strong> Tecidos especiais</li>
+                            <li><strong>Coleta e Entrega:</strong> Agende em nossa loja ou por telefone</li>
+                        </ul>
+                    </div>
+                    <button class="expand-btn" onclick="toggleAbout(2)">
+                        <span>Explorar</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="expanded-content" id="about-2">
+                        <p>Especialidades da Lavanderia Lavanda:</p>
+                        <p><strong>Lavagem Completa:</strong> Processo cuidadoso para roupas do dia a dia, cama e banho, com seleção de detergentes e ciclos adequados para cada tecido.</p>
+                        <p><strong>Passadoria:</strong> Passadoria profissional para peças sociais e delicadas, utilizando técnicas que preservam a forma e o caimento das roupas.</p>
+                        <p><strong>Lavagem a Seco:</strong> Tratamento especializado para roupas e tecidos que não podem ser lavados com água, garantindo limpeza profunda sem danificar as fibras.</p>
+                        <p><strong>Coleta e Entrega:</strong> Serviço prático e pontual para residências e empresas, com opção de agendamento conforme sua necessidade.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seção de Estatísticas -->
+            <div class="stats-section" data-anime="up">
+                <div class="stat-item">
+                    <span class="stat-number">10k+</span>
+                    <span class="stat-label">Lavagens</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Satisfação</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Anos de Experiência</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24h</span>
+                    <span class="stat-label">Entrega Rápida</span>
+                </div>
+            </div>
+        </section>
+<!--Conhecimento-->
+        <section class="sessao-conhecimentos" >
+            <div class="sessao-header" id="conhecimentos">
+                <h1 class="title-style">Serviços Disponíveis</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <img src="./media/transferir.jpeg" alt="Lavagem Completa">
+                        <h3>Lavagem Completa</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lavagem de roupas do dia a dia com cuidado apropriadas.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <img src="./media/ferro.jpeg" alt="Passadoria">
+                        <h3>Passadoria</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Passagem de roupas sociais e delicadas com cuidado e profissionalismo.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <img src="./media/34.jpeg" alt="Lavagem a Seco">
+                        <h3>Lavagem a Seco</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Tratamento especial para tecidos, utilizando produtos adequados.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <img src="./media/6.jpg" alt="Edredons e Cobertores">
+                        <h3>Edredons e Cobertores</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Lavagem especial para edredons e cobertores, garantindo a qualidade.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="left">
+                    <div class="conhecimento-header">
+                        <img src="./media/10.jpg" alt="Serviços Corporativos">
+                        <h3>Serviços Corporativos</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Soluções para hotéis, pousadas e empresas com coleta programada.</p>
+                    </div>
+                </div>
+                <div class="conhecimento" data-anime="right">
+                    <div class="conhecimento-header">
+                        <img src="./media/SS.jpg" alt="Coleta e Entrega">
+                        <h3>Coleta e Entrega</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Agende a retirada e entrega até você em horários flexíveis.</p>
+                    </div>
+                </div>
+                <div class="imagemFundo">
+                    <img src="./media/7.png" alt="Serviços de Lavanderia">
+                </div>
+            </div>
+        </section>
+        <section class="sessao-projetos" id="projetos" >
+            <div class="projetos-header">
+                <h1>Ofertas e Pacotes</h1>
+            </div>
+            <div class="cards">
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/16.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Pacote Básico</h2>
+                            <h3>Lavagem e Secagem</h3>
+                            <P>Ideal para roupas do dia a dia. Lavagem, secagem e dobragem rápida.</P>
+                            <button class="ButtonSend">Escolher</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/24.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Pacote Premium</h2>
+                            <h3>Lavagem, Secagem e Passadoria</h3>
+                            <P>Para roupas mais delicadas e necessidades especiais. Inclui lavagem, secagem e passadoria profissional.</P>
+                            <button class="ButtonSend">Escolher</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/12.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Pacote Especial</h2>
+                            <h3>Lavagem, Secagem e Passadoria</h3>
+                            <P>Para roupas mais delicadas e necessidades especiais. Inclui lavagem, secagem e passadoria profissional.</P>
+                            <button class="ButtonSend">Escolher</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-anime="up">
+                    <div class="card-img-wrapper">
+                        <img src="./media/23.jpg" alt="">
+                    </div>
+                    <div class="background">
+                        <div class="card-info">
+                            <h2>Pacote Corporativo</h2>
+                            <h3>Serviços para Empresas</h3>
+                            <P>Soluções personalizadas para hotéis, pousadas e empresas com volume de peças e coleta programada.</P>
+                            <button class="ButtonSend">Escolher</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        
+
+        <section class="section-contact" id="contato">
+            <div class="contact-wrapper" data-anime="up">
+                <div class="contact-left"></div>
+                <div class="contact-right">
+                    <h1>contacto</h1>
+                    <form class="form-contact">
+                        <div class="input-group">
+                            <input id="nome" type="text" class="field">
+                            <label  for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input id="email" type="email" class="field">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="mensage" class="field"></textarea>
+                            <label for="mensage" class="field-label">Mensagem</label>
+                        </div>
+                        <button  href="mailto:gismarques25@gmail.com" class="ButtonCustom" type="send">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <section class="section-budget" id="orcamento">
+            <div class="box"></div>
+            <div class="budget-wrapper">
+                <div class="header-budget">
+                    <h1>Solicitar Orçamento de Serviço</h1>
+                </div>
+                
+                <form class="form-budget" id="form-orcamento">
+                    
+                    <div class="qtde-page">
+                        <label for="qtde">Lavagem Completa</label> 
+                        <input type="number" name="qtde" id="qtde" min="1" max="100"> <br/><br/>
+                        <label for="js">Preciso dos vossos serviços:</label>
+                        <input class="check" checked="" type="checkbox" name="js" id="js"> <br/><br/><br/> 
+                    </div>
+                    
+                    
+                    <div class="group-layout">
+                        <label>Prazo de entrega</label> 
+                        <div>
+                            <input type="radio" name="layout" id="layout-sim">
+                            <label for="layout-sim">Normal (2-3 dias)</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-sim">Expresso (24h)</label>
+                        </div><br/>
+                        
+                        <div>
+                            <label for="prazo">Urgência(horas)</label>
+                            <input type="range" name="prazo" id="prazo" min="1" max="10">
+                        </div>
+                        
+                        <label id="preco"> kzs 0,00</label>
+
+                        <div class="btn">
+                            <button type="submit" id="envio-form-orc" class="ButtonCustom">enviar</button>
+                            <button type="button" id="download-doc" class="ButtonCustom">Baixar .doc</button>
+                        </div>
+                        
+                    </div>
+                     
+                </form>
+        </section> 
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-column footer-location">
+                    <h4>Localização</h4>
+                    <p>Rua doutor António Agostinho Neto<br>
+                    Casa N°94R-C<br>
+                    1° Andar/Bairro Azul<br>
+                    Luanda – Angola</p>
+                </div>
+                <div class="footer-column footer-hours">
+                    <h4>Horário de funcionamento</h4>
+                    <p>Segunda a sexta-feira: 08h00 - 20h00</p>
+                    <p>Sábado: 08h00 - 18h00</p>
+                    <p>Domingo: Fechado</p>
+                </div>
+                <div class="banner-contact-list">
+                        <h4>Contactos</h4>
+                        <a href="tel:+244941451702">(+244) 941 451 702</a>
+                        <a href="tel:+244943305446">(+244) 943 305 446</a>
+                    </div>
+                <div class="footer-column footer-social-links">
+                    <h4>Redes Sociais</h4>
+                    <div class="footer-social">
+                        <a href="#" aria-label="LinkedIn"><img src="assets/images/linkedin.png" alt="LinkedIn" /></a>
+                        <a href="#" aria-label="Facebook"><img src="assets/images/facebook.png" alt="Facebook" /></a>
+                        <a href="#" aria-label="Google Plus"><img src="assets/images/googleplus.png" alt="Google Plus" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 - 2026 Lavandaria. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
